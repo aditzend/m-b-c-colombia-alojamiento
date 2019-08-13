@@ -1,0 +1,82 @@
+intents:
+- General_Saludo
+- General_Despedida
+- General_ActualizarDatos
+- General_ActualizarDatosNoSoy
+- Afiliaciones_ConocerCategoria
+- Afiliaciones_ConocerCategoriaXIdentificacion
+- Afiliaciones_Invitados
+- Afiliaciones_AsignacionCategoria
+- Afiliaciones_AQuienAfiliar
+
+
+actions:
+- utter_General_Saludo
+- utter_General_Despedida
+- utter_General_ActualizarDatos
+- utter_Afiliaciones_ConocerCategoria
+- utter_Afiliaciones_ConsultarCategoriaXIdentificacion
+- custAction_Afiliaciones_ConsultarCategoriaXIdentificacion
+- utter_General_ActualizarDatosNoSoy
+- utter_Afiliaciones_Invitados
+- utter_Afiliaciones_AsignacionCategoria
+- utter_Afiliaciones_AQuienAfiliar
+
+
+templates:
+  utter_General_Saludo:
+    - text: "Hola! ¿En que te puedo ayudar?"
+    - text: "Hola! ¿Como le puedo ayudar?"
+    - text: "Hola! Gracias por el interés en nuestros servicios. Podrias indicarme el motivo de tu consulta?"
+
+  utter_General_Despedida:
+    - text: "Gracias por utilizar nuestros servicios. Hasta pronto."
+    - text: "Gracias!. Hasta pronto."
+    - text: "Hasta pronto!"
+    - text: "Gracias por comunicarte con nosotros y pertenecer a la gran familia Compensar. Recuerda que lo mejor de lo que hacemos es para quien lo hacemos."
+  
+  utter_General_ActualizarDatos:
+    - text: "Ingresa aquí http://bit.ly/2OHEcs2 selecciona actualizar mis datos o documentos e ingresa al portal transaccional para radicar o actualizar toda tu información."
+  
+  utter_Afiliaciones_ConocerCategoria:
+    - text: "Categoría  A: Trabajadores cuyo salario básico no supere los 2 salarios mínimos legales mensuales vigentes.
+                        B: Trabajadores cuyo salario básico esté entre 2 y 4 salarios mínimos legales mensuales vigentes.
+                        C: Trabajadores cuyo salario básico supere los 4 salarios mínimos legales mensuales vigentes."
+
+  utter_Afiliaciones_ConsultarCategoriaXIdentificacion:
+    - text : "Si no está seguro aun de cual es su Categoria, por favor indique su numero de Cedula de Ciudadania."
+  
+  utter_General_ActualizarDatosNoSoy:
+    - text : "Estimado usuario, gracias por tu respuesta, actualizaremos nuestra base de datos."
+
+  utter_Afiliaciones_Invitados:
+    - text : "La categoría es personal e intransferible, y forma parte de la regulación en los servicios de las Cajas de Compensación Familiar"
+  
+  utter_Afiliaciones_AsignacionCategoria:
+    - text : "La categoría se establece de acuerdo con el salario registrado en la afiliación, y se actualizará con los datos registrados en el pago mensual del aporte."
+  
+  utter_Afiliaciones_AQuienAfiliar:
+    - text : "Puedes afiliar a la Caja de compensación Compensar a: padres de cualquier edad, cónyuge o compañer@ permanente, hij@s y herman@s hasta los 23 años."
+
+
+slots:  
+  categoria:
+    type : text
+
+  identificacion:
+    type : text  
+
+  nombreCompleto:
+    type : text
+
+  direccion:
+    type : text
+
+  celular:
+    type : text
+  
+
+entities:
+  - categoria
+  - identificacion
+  - nombreCompleto
