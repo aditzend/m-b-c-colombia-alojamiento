@@ -31,3 +31,6 @@ RuntimeError: Event loop stopped before Future completed.
 2019-08-13 16:12:07,482 [DEBUG]  Available web server routes: 
 /webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
 /webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-13 18:09:28,226 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive

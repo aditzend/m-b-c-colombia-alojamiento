@@ -39,7 +39,8 @@ class custAction_Afiliaciones_ConsultarCategoriaXIdentificacion(Action):
         STRING_XML = STRING_XML + "<Opcion>22</Opcion>"
         STRING_XML = STRING_XML + "</Afiliado>" 
         response = requests.get(WS_URL_BASE + WS_METHOD_NAME + WS_TOKEN + STRING_XML , headers=_HEADERS)
-        json_person = response.json()     
+        json_person = response.json()
+        print(tracker.slots)
 
         return [SlotSet("nombreCompleto", json_person['DsAfiliado']['Afiliado']['Nombre'] + " " + json_person['DsAfiliado']['Afiliado']['PrimerApellido']),
                 SlotSet("identificacion", json_person['DsAfiliado']['Afiliado']['IdAfiliado']),

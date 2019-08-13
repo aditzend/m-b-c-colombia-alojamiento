@@ -43,6 +43,7 @@
 
 ##intent: Afiliaciones_ConocerCategoria
   - conocer categoria de afiliado
+  - concer categoria
   - categoria afiliacion
   - cual es mi categoria
   - saber categoria
