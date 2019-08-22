@@ -8,6 +8,29 @@ intents:
 - Afiliaciones_Invitados
 - Afiliaciones_AsignacionCategoria
 - Afiliaciones_AQuienAfiliar
+- Afiliaciones_ComoPuedoAfiliarBeneficiarios
+- Afiliaciones_MediosConsultarGrupoFamiliar
+- Afiliaciones_AfiliacionCosto
+- AlimentosBebidas_PlanesIncluyenBebidas
+- AlimentosBebidas_TipoAlimentacion
+- AlimentosBebidas_PlatosCarta
+- AlimentosBebidas_MenuInfantil
+- AlimentosBebidas_HorarioComidasLagosol
+- AlimentosBebidas_HorarioComidasLagomar
+- AlimentosBebidas_VendenBebidasAlcoholicas
+- Canal_HorarioChat
+- Canal_OficinasHorarios
+- Canal_horarioLineaTelefonica
+- Default
+- Pagos_TiempoPagoReserva
+- Pagos_MediosPagosReserva
+- Pagos_PagarConLibranzaNomina
+- Planes_PlanesNavidadFinDeAnio
+- Reservas_MediosHacerReserva
+
+
+
+
 
 
 actions:
@@ -21,6 +44,26 @@ actions:
 - utter_Afiliaciones_Invitados
 - utter_Afiliaciones_AsignacionCategoria
 - utter_Afiliaciones_AQuienAfiliar
+- utter_Afiliaciones_ComoPuedoAfiliarBeneficiarios
+- utter_Afiliaciones_MediosConsultarGrupoFamiliar
+- utter_Afiliaciones_AfiliacionCosto
+- utter_AlimentosBebidas_PlanesIncluyenBebidas
+- utter_AlimentosBebidas_TipoAlimentacion
+- utter_AlimentosBebidas_PlatosCarta
+- utter_AlimentosBebidas_MenuInfantil
+- utter_AlimentosBebidas_HorarioComidasLagosol
+- utter_AlimentosBebidas_HorarioComidasLagomar
+- utter_AlimentosBebidas_VendenBebidasAlcoholicas
+- utter_Canal_HorarioChat
+- utter_Canal_OficinasHorarios
+- utter_Canal_horarioLineaTelefonica
+- utter_Default
+- utter_Pagos_TiempoPagoReserva
+- utter_Pagos_MediosPagosReserva
+- utter_Pagos_PagarConLibranzaNomina
+- utter_Planes_PlanesNavidadFinDeAnio
+- utter_Reservas_MediosHacerReserva
+
 
 
 templates:
@@ -57,6 +100,65 @@ templates:
   
   utter_Afiliaciones_AQuienAfiliar:
     - text : "Puedes afiliar a la Caja de compensación Compensar a: padres de cualquier edad, cónyuge o compañer@ permanente, hij@s y herman@s hasta los 23 años."
+
+  utter_Afiliaciones_ComoPuedoAfiliarBeneficiarios:
+    - text : "Ingresa aquí http://bit.ly/2WGF2Ib donde encontrarás el tour virtual de cómo afiliar a tus beneficiarios por nuestra plataforma de transacciones en línea."
+
+  utter_Afiliaciones_MediosConsultarGrupoFamiliar:
+    - text : "Ingresa aquí http://bit.ly/2WD0fTk con usuario y clave de transacciones en línea y selecciona datos básicos para encontrar la información de tu grupo familiar."
+  
+  utter_Afiliaciones_AfiliacionCosto:
+    - text : "Puedes afiliar sin costo a la Caja de Compensación a padres, cónyuge o compañer@ permanente, hij@s y herman@s hasta los 23 años."
+  
+  utter_AlimentosBebidas_PlanesIncluyenBebidas:
+    - text : "En Lagosol tenemos puntos para la venta de alimentos y bebidas y en Lagomar tu tarifa incluye bebidas ilimitadas (jugos, gaseosas y limonadas)"
+
+  utter_AlimentosBebidas_TipoAlimentacion:
+    - text : "En Lagomar tu reserva incluye alimentación tipo buffet y en los planes de Lagosol encontraras alimentación tipo menú."
+  
+  utter_AlimentosBebidas_PlatosCarta:
+    - text : "En los dos hoteles Lagomar y Lagosol contamos con el servicio de platos a la carta para todos los gustos."
+
+  utter_AlimentosBebidas_MenuInfantil:
+    - text : "En los dos hoteles Lagomar y Lagosol contamos con menús infantiles para tus niños."
+
+  utter_AlimentosBebidas_HorarioComidasLagosol:
+    - text : "Los horarios de nuestro restaurante en Lagosol para el desayuno es de 8:00am a 10:00am, el almuerzo de 1:00pm a 2:30pm o cena de 7:00pm a 8:30pm"
+
+  utter_AlimentosBebidas_HorarioComidasLagomar:
+    - text : "Los horarios de nuestro restaurante tipo buffet en Lagomar  son: desayuno de 7:00am a 10:00am, almuerzo de 12:00pm a 3:00pm y cena de 7:00am a 10:00pm "
+  
+  utter_AlimentosBebidas_VendenBebidasAlcoholicas:
+    - text : "En la piscina mirador de Lagomar podrás disfrutar de cócteles con y sin licor entre las 10:00am y 7:00pm, con costo adicional. En Lagosol tenemos puntos de venta de bebidas alcohólicas como cervezas y cócteles."
+  
+  utter_Canal_HorarioChat:
+    - text : "Cualquier duda o información adicional que requieras no dudes en comunicarte por nuestro chat https://sforce.co/2FM10ml en los siguientes horarios: lun a vie de 7:00am a 8:00pm sábados de 8:00am a 5:00pm y domingos y festivos de 10:00am a 6:00pm"
+  
+  utter_Canal_OficinasHorarios:
+    - text : "Estimado usuario, conoce aquí http://bit.ly/2FMiRcM las sedes y horarios que cuentan con asesoría en turismo"
+  
+  utter_Canal_horarioLineaTelefonica:
+    - text : "Cualquier duda o información adicional que necesites no dudes en comunicarte a la línea telefónica 0313077001 en los siguientes horarios: lun a vie de 8:00am a 5:30pm sábados, domingos y festivos de 8:00am a 5:00pm"
+  
+  utter_Default:
+    - text : "Por favor modifica tu pregunta o ingresa a http://bit.ly/2WI3nxe para conocer más información sobre la Caja de Compensación Familiar Compensar."
+
+  utter_Pagos_TiempoPagoReserva:
+    - text : "Si realizaste la reserva presencialmente, a través del 3077001 o en el Chat en Línea, debes generar el pago mínimo del 50% en 48 horas después de haber generado la reserva, el valor restante lo debes pagar mínimo una semana antes de ingresar al hotel (el hotel no recibirá este pago)."
+
+  utter_Pagos_MediosPagosReserva:
+    - text : "Para realizar el pago de tu reserva puedes hacerlo por la línea telefónica, chat o página web con tarjeta de crédito o de manera presencial con tarjeta débito o crédito, tarjeta Compensar, efectivo o consignación del banco de Bogotá."
+
+  utter_Pagos_PagarConLibranzaNomina:
+    - text : "Actualmente no es posible pagar tu reserva con libranza, sin embargo, tenemos la opción de un crédito alojamiento con Compensar, cuya forma de pago si puede ser descuento por nomina"
+  
+  utter_Planes_PlanesNavidadFinDeAnio:
+    - text : "Estimado usuario, aún no se han estructurado los planes de navidad y fin de año, tan pronto estén diseñados se notificará oportunamente en nuestra página web http://bit.ly/2YL7wm2"
+  
+  utter_Reservas_MediosHacerReserva:
+    - text : "Compensar cuenta con 4 medios a través de los cuales puedes realizar tu reserva: 1. Presencialmente en las siguientes sedes y horarios http://bit.ly/2OKNNyb 2.Línea de atención telefónica 0313077001, reservas online o Chat en Línea "
+
+
 
 
 slots:  

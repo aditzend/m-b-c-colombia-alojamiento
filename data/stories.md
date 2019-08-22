@@ -51,3 +51,78 @@
 ##Afiliaciones_AQuienAfiliar
 * Afiliaciones_AQuienAfiliar
     - utter_Afiliaciones_AQuienAfiliar
+
+##Afiliaciones_ComoPuedoAfiliarBeneficiarios
+* Afiliaciones_ComoPuedoAfiliarBeneficiarios
+    - utter_Afiliaciones_ComoPuedoAfiliarBeneficiarios
+
+##Afiliaciones_MediosConsultarGrupoFamiliar
+* Afiliaciones_MediosConsultarGrupoFamiliar
+    - utter_Afiliaciones_MediosConsultarGrupoFamiliar
+
+##Afiliaciones_AfiliacionCosto
+* Afiliaciones_AfiliacionCosto
+    - utter_Afiliaciones_AfiliacionCosto
+
+##AlimentosBebidas_PlanesIncluyenBebidas
+* AlimentosBebidas_PlanesIncluyenBebidas
+    - utter_AlimentosBebidas_PlanesIncluyenBebidas
+##AlimentosBebidas_TipoAlimentacion
+* AlimentosBebidas_TipoAlimentacion
+    -utter_AlimentosBebidas_TipoAlimentacion
+
+##AlimentosBebidas_PlatosCarta
+* AlimentosBebidas_PlatosCarta
+    -utter_AlimentosBebidas_PlatosCarta
+
+##AlimentosBebidas_MenuInfantil
+* AlimentosBebidas_MenuInfantil
+    - utter_AlimentosBebidas_MenuInfantil
+
+##AlimentosBebidas_HorarioComidasLagomar
+* AlimentosBebidas_HorarioComidasLagomar
+    - utter_AlimentosBebidas_HorarioComidasLagomar
+
+##AlimentosBebidas_HorarioComidasLagosol
+* AlimentosBebidas_HorarioComidasLagosol
+    - utter_AlimentosBebidas_HorarioComidasLagosol
+
+##AlimentosBebidas_VendenBebidasAlcoholicas
+* AlimentosBebidas_VendenBebidasAlcoholicas
+    - utter_AlimentosBebidas_VendenBebidasAlcoholicas
+
+##Canal_HorarioChat
+* Canal_HorarioChat
+    - utter_Canal_HorarioChat
+
+##Canal_OficinasHorarios
+* Canal_OficinasHorarios
+    - utter_Canal_OficinasHorarios
+
+##Canal_horarioLineaTelefonica
+* Canal_horarioLineaTelefonica
+    - utter_Canal_horarioLineaTelefonica
+
+##Default
+* Default
+    - utter_Default
+
+##Pagos_TiempoPagoReserva
+* Pagos_TiempoPagoReserva
+    - utter_Pagos_TiempoPagoReserva
+
+##Pagos_MediosPagosReserva
+* Pagos_MediosPagosReserva
+    - utter_Pagos_MediosPagosReserva
+
+##Pagos_PagarConLibranzaNomina
+* Pagos_PagarConLibranzaNomina
+    - utter_Pagos_PagarConLibranzaNomina
+
+##Planes_PlanesNavidadFinDeAnio
+* Planes_PlanesNavidadFinDeAnio
+    - utter_Planes_PlanesNavidadFinDeAnio
+
+##Reservas_MediosHacerReserva
+* Reservas_MediosHacerReserva
+    - utter_Reservas_MediosHacerReserva

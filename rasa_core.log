@@ -34,3 +34,59 @@ RuntimeError: Event loop stopped before Future completed.
 2019-08-13 18:09:28,226 [DEBUG]  Available web server routes: 
 /webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
 /webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 10:08:56,099 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\mitrol\.virtualenvs\rasa_chat_bot-n-df5pn_\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\mitrol\appdata\local\programs\python\python37\Lib\asyncio\base_events.py", line 566, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-15 11:32:39,485 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\mitrol\.virtualenvs\rasa_chat_bot-n-df5pn_\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\mitrol\appdata\local\programs\python\python37\Lib\asyncio\base_events.py", line 566, in run_until_complete
+    raise RuntimeError('Event loop stopped before Future completed.')
+RuntimeError: Event loop stopped before Future completed.
+2019-08-15 13:49:29,517 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 13:50:20,646 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 13:50:50,346 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:13:43,806 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:15:34,047 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:16:34,579 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:27:17,898 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:35:12,147 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:38:08,609 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:47:13,225 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:51:11,510 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:53:01,750 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:56:53,827 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
+2019-08-15 14:58:45,801 [DEBUG]  Available web server routes: 
+/webhooks/rest                                     GET                            custom_webhook_CmdlineInput.health
+/webhooks/rest/webhook                             POST                           custom_webhook_CmdlineInput.receive
