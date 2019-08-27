@@ -27,11 +27,82 @@ intents:
 - Pagos_PagarConLibranzaNomina
 - Planes_PlanesNavidadFinDeAnio
 - Reservas_MediosHacerReserva
-
-
-
-
-
+- Reservas_Requisitos_RealizarReserva
+- Reservas_CambiosReserva
+- Reservas_ProblemasPortalReservas
+- Reservas_MediosCancelacionReservas
+- Reservas_MotivoCancelacionReserva
+- Reservas_CambiosConservandoTarifa
+- Reservas_CancelarReactivarReserva
+- Reservas_PlanearEsAhorrar
+- Reservas_EdadPagoNiños
+- Reservas_CostoHospedaje
+- Reservas_DisponibilidadTarifas
+- Reservas_CederReserva
+- Reservas_LimiteAcompañantes
+- SobreHoteles_UbicacionHoteles
+- SobreHoteles_DocumentosParaCheckIn
+- SobreHoteles_HorarioIngresoHoteles
+- SobreHoteles_TransporteHoteles
+- SobreHoteles_PermiteIngresoAlimentos
+- SobreHoteles_IngresoMascotas
+- SobreHoteles_PiscinaNiños
+- SobreHoteles_HabitacionesAireAcondicionado
+- SobreHoteles_ServicioParqueadero
+- SobreHoteles_SillaDeRuedas
+- SobreHoteles_PlanesRomanticos
+- SobreHoteles_Lavanderia
+- SobreHoteles_HotelTiendas
+- SobreHoteles_CanchaTenis
+- SobreHoteles_DeportesExtremos
+- SobreHoteles_ServiciosAdicionales
+- SobreHoteles_Enfermeria
+- SobreHoteles_PiscinasHotel
+- SobreHoteles_TVHabitacion
+- SobreHoteles_HorarioRecepcion
+- SobreHoteles_SalirHotel
+- SobreHoteles_MaterialCanchaTenis
+- SobreHoteles_NadarLago
+- SobreHoteles_AlojamientoConAlimentacion
+- SobreHoteles_TiposHabitacionLagosol
+- SobreHoteles_CumpleañosLagosol
+- SobreHoteles_TiposHabitacionLagomar
+- SobreHoteles_CumpleañosLagomar
+- SobreHoteles_WIFIHoteles
+- AlimentosBebidas_ComidasRapidasLagomar
+- AlimentosBebidas_SnaksBebidasLagomar
+- SobreHoteles_GolfLagomar
+- SobreHoteles_VoleyPlayaLagomar
+- SobreHoteles_SalonJuegosLagomar
+- SobreHoteles_CanopyLagomar
+- SobreHoteles_SPALagomar
+- SobreHoteles_PlayaLagomar
+- SobreHoteles_BolosLagomar
+- SobreHoteles_FutbolLagomar
+- SobreHoteles_FutbolLagosol
+- SobreHoteles_SalonJuegosLagosol
+- SobreHoteles_BicicletasAcuaticasLagosol
+- SobreHoteles_CaminatasLagosol
+- Pasadia_HorarioTransporteLagosol
+- Pasadia_PrecioTransporteLagosol
+- Pasadia_CondicionesRestriccionesTransporte
+- Pasadia_TransporteNiños
+- Pasadia_PasadiaLagosol
+- Pasadia_RecomendacionesPasadia
+- Tarifas_TarifasPasadiaPorCategoria
+- Tarifas_TarifasLagomar
+- Tarifas_TarifasLagosol
+- Convenios_CajaSinFronteras
+- Convenios_HotelesEstelar
+- Convenios_ReservarHotelesEstelar
+- CreditoTurismo_SobreCreditoTurismo
+- CreditoTurismo_BeneficiosCreditoTurismo
+- CreditoTurismo_RequisitosCreditoTurismo
+- CreditoTurismo_DocumentosCreditoTurismo
+- CreditoTurismo_RealizarSolicitudCcredito
+- CreditoTurismo_TiempoAprobacionCreditoTurismo
+- CreditoTurismo_LibranzaCreditoTurismo
+- CreditoTurismo_AgenciaViajes
 
 actions:
 - utter_General_Saludo
@@ -63,8 +134,82 @@ actions:
 - utter_Pagos_PagarConLibranzaNomina
 - utter_Planes_PlanesNavidadFinDeAnio
 - utter_Reservas_MediosHacerReserva
-
-
+- utter_Reservas_Requisitos_RealizarReserva
+- utter_Reservas_CambiosReserva
+- utter_Reservas_ProblemasPortalReservas
+- utter_Reservas_MediosCancelacionReservas
+- utter_Reservas_MotivoCancelacionReserva
+- utter_Reservas_CambiosConservandoTarifa
+- utter_Reservas_CancelarReactivarReserva
+- utter_Reservas_PlanearEsAhorrar
+- utter_Reservas_EdadPagoNiños
+- utter_Reservas_CostoHospedaje
+- utter_Reservas_DisponibilidadTarifas
+- utter_Reservas_CederReserva
+- utter_Reservas_LimiteAcompañantes
+- utter_SobreHoteles_UbicacionHoteles
+- utter_SobreHoteles_DocumentosParaCheckIn
+- utter_SobreHoteles_HorarioIngresoHoteles
+- utter_SobreHoteles_TransporteHoteles
+- utter_SobreHoteles_PermiteIngresoAlimentos
+- utter_SobreHoteles_IngresoMascotas
+- utter_SobreHoteles_PiscinaNiños
+- utter_SobreHoteles_HabitacionesAireAcondicionado
+- utter_SobreHoteles_ServicioParqueadero
+- utter_SobreHoteles_SillaDeRuedas
+- utter_SobreHoteles_PlanesRomanticos
+- utter_SobreHoteles_Lavanderia
+- utter_SobreHoteles_HotelTiendas
+- utter_SobreHoteles_CanchaTenis
+- utter_SobreHoteles_DeportesExtremos
+- utter_SobreHoteles_ServiciosAdicionales
+- utter_SobreHoteles_Enfermeria
+- utter_SobreHoteles_PiscinasHotel
+- utter_SobreHoteles_TVHabitacion
+- utter_SobreHoteles_HorarioRecepcion
+- utter_SobreHoteles_SalirHotel
+- utter_SobreHoteles_MaterialCanchaTenis
+- utter_SobreHoteles_NadarLago
+- utter_SobreHoteles_AlojamientoConAlimentacion
+- utter_SobreHoteles_TiposHabitacionLagosol
+- utter_SobreHoteles_CumpleañosLagosol
+- utter_SobreHoteles_TiposHabitacionLagomar
+- utter_SobreHoteles_CumpleañosLagomar
+- utter_SobreHoteles_WIFIHoteles
+- utter_AlimentosBebidas_ComidasRapidasLagomar
+- utter_AlimentosBebidas_SnaksBebidasLagomar
+- utter_SobreHoteles_GolfLagomar
+- utter_SobreHoteles_VoleyPlayaLagomar
+- utter_SobreHoteles_SalonJuegosLagomar
+- utter_SobreHoteles_CanopyLagomar
+- utter_SobreHoteles_SPALagomar
+- utter_SobreHoteles_PlayaLagomar
+- utter_SobreHoteles_BolosLagomar
+- utter_SobreHoteles_FutbolLagomar
+- utter_SobreHoteles_FutbolLagosol
+- utter_SobreHoteles_SalonJuegosLagosol
+- utter_SobreHoteles_BicicletasAcuaticasLagosol
+- utter_SobreHoteles_CaminatasLagosol
+- utter_Pasadia_HorarioTransporteLagosol
+- utter_Pasadia_PrecioTransporteLagosol
+- utter_Pasadia_CondicionesRestriccionesTransporte
+- utter_Pasadia_TransporteNiños
+- utter_Pasadia_PasadiaLagosol
+- utter_Pasadia_RecomendacionesPasadia
+- utter_Tarifas_TarifasPasadiaPorCategoria
+- utter_Tarifas_TarifasLagomar
+- utter_Tarifas_TarifasLagosol
+- utter_Convenios_CajaSinFronteras
+- utter_Convenios_HotelesEstelar
+- utter_Convenios_ReservarHotelesEstelar
+- utter_CreditoTurismo_SobreCreditoTurismo
+- utter_CreditoTurismo_BeneficiosCreditoTurismo
+- utter_CreditoTurismo_RequisitosCreditoTurismo
+- utter_CreditoTurismo_DocumentosCreditoTurismo
+- utter_CreditoTurismo_RealizarSolicitudCcredito
+- utter_CreditoTurismo_TiempoAprobacionCreditoTurismo
+- utter_CreditoTurismo_LibranzaCreditoTurismo
+- utter_CreditoTurismo_AgenciaViajes
 
 templates:
   utter_General_Saludo:
@@ -157,10 +302,236 @@ templates:
   
   utter_Reservas_MediosHacerReserva:
     - text : "Compensar cuenta con 4 medios a través de los cuales puedes realizar tu reserva: 1. Presencialmente en las siguientes sedes y horarios http://bit.ly/2OKNNyb 2.Línea de atención telefónica 0313077001, reservas online o Chat en Línea "
+  
+  utter_Reservas_Requisitos_RealizarReserva:
+    - text : "Debes tener claras las fechas en las que realizarás tu viaje y tener a la mano los números de identificación y fechas de nacimiento de las personas que viajarán contigo."
+  
+  utter_Reservas_CambiosReserva:
+    - text : "Realiza cambio o modificaciones en tu reserva en los puntos de atención presencial, en la línea 0313077001 o por nuestro chat, estos cambios están sujetos a disponibilidad y puede ocasionar reliquidación en la tarifa, además deben realizarse antes de 48 horas a la llegada del hotel"
+  
+  utter_Reservas_ProblemasPortalReservas:
+    - text : "En caso de presentar inconvenientes con tu proceso de reserva, el portal de Compensar cuenta con un chat en línea a través, del cual puedes recibir asesoría de lun a vie de 7:00am a 8:00pm sábados de 8:00am a 5:00pm y domingos y festivos de 10:00am a 6:00pm"
+    - text : "En caso de presentar inconvenientes al realizar tu reserva online, Compensar dispone de un chat en línea a través del cual puedes recibir apoyo, de lunes a viernes de 7:30am a 6:30pm, sábados de 8:00am a 5:00pm y domingos y festivos de 10:00am a 6:00pm"
+  
+  utter_Reservas_MediosCancelacionReservas:
+    - text : "Acércate a uno de las oficinas de venta en Bogotá http://bit.ly/2FMiRcM o comunícate al call o chat, ten a la mano los soportes del motivo por el cual no puedes viajar para estudio del caso, y las posibles opciones de reprogramación o devolución"
+  
+  utter_Reservas_MotivoCancelacionReserva:
+    - text : "Enfermedad o muerte de uno de los viajeros o de un familiar de primer grado de consanguinidad de algunos de los integrantes de la reserva; problemas de orden público en la ciudad de origen, municipio de destino o en la carretera de acceso a los centros vacacionales."
+  
+  utter_Reservas_CambiosConservandoTarifa:  
+    - text : "Puedes efectuar cambios en tu reserva, estos cambios están sujetos a las condiciones del plan adquirido, consulta con asesor la disponibilidad y posibles cambios en tu tarifa"
+  
+  utter_Reservas_CancelarReactivarReserva:
+    - text : "Está permitido realizar hasta 3 cancelaciones y reactivaciones en los 6 meses siguientes a la confirmación de la primera fecha relacionada en la reserva."
 
+  utter_Reservas_PlanearEsAhorrar:
+    - text : "Planear es Ahorrar es un esquema mensual dinámico en donde podrás seleccionar la mejor opción de acuerdo con la disponibilidad y capacidad de compra. Conoce más aquí http://bit.ly/2KcyP5E aplican TyC"
 
+  utter_Reservas_EdadPagoNiños:
+    - text : "Para Hotel Lagomar o Lagosol (alojamiento) el rango de edad considerado para niños es de 2 a 11 años y para servicio de pasadía los niños menores de 3 años no pagan el ingreso al hotel."
 
+  utter_Reservas_CostoHospedaje:
+    - text : "El valor del hospedaje se fija de acuerdo a la categoría de afiliación individual, cantidad de personas, hotel y el plan que elijas, consulta en cada uno de los hoteles aquí http://bit.ly/2Ueym7j" 
+  
+  utter_Reservas_DisponibilidadTarifas:
+    - text : "Estimado usuario para conocer nuestros planes y la disponibilidad de nuestros hoteles, puedes realizarlo directamente en la página web aquí: http://bit.ly/2Vfzkg1"
 
+  utter_Reservas_CederReserva:
+    - text : "Sí, debe realizar la solicitud por escrito adjuntando la cédula del titular actual de la reserva y el nuevo titular. La reserva se debe reliquidar de acuerdo con la categoría de afiliación de las personas que viajan dependiendo la fecha de viaje."
+   
+  utter_Reservas_LimiteAcompañantes:
+    - text : "En ninguno de nuestros hoteles tenemos un limite de acompañantes, sin embargo, las reservas están sujetas a disponibilidad."   
+
+  utter_SobreHoteles_UbicacionHoteles:
+    - text : "Ingresa aquí http://bit.ly/2VinAJR para visualizar la ruta que te hará llegar de Bogotá a Lagomar o aquí http://bit.ly/2IaPUdk si tu destino es Lagosol"
+
+  utter_SobreHoteles_DocumentosParaCheckIn:
+    - text : "Documento de identificación personal, menores de edad deben ir acompañado por sus padres, de lo contrario, el acudiente deberá presentar una carta autenticada ante una notaría, donde uno de los dos padres deleguen el cuidado en las fechas y lugar de la reserva y certificado de pago de la reserva."
+
+  utter_SobreHoteles_HorarioIngresoHoteles:
+    - text : "La hora de ingreso a nuestros hoteles es a las 03:00 p.m. y la hora de salida es a la 12:30 p.m. ten en cuenta que si ingresas a los hoteles antes de las 3 o entregas la habitación después de las 12:30 se generará un cargo adicional."
+
+  utter_SobreHoteles_TransporteHoteles:
+    - text : "Lagomar y Lagosol no prestan servicio de transporte desde Bogotá, únicamente Lagosol presta este servicio para pasadía, los días sábados, domingos y festivos."  
+  
+  utter_SobreHoteles_PermiteIngresoAlimentos:
+    - text : "No está permitido el ingreso de alimentos o bebidas en ninguno de los hoteles, Lagomar y Lagosol ofrecen opciones de bebidas y alimentación para tu gusto."
+    
+  utter_SobreHoteles_IngresoMascotas:
+    - text : "En este momento no contamos con espacios adecuados para las mascotas, por lo tanto no está permitido el ingreso de las mismas a los hoteles"    
+
+  utter_SobreHoteles_PiscinaNiños:
+    - text : "Claro que sí, en los dos hoteles contamos con instalaciones adecuadas y atractivas para que disfruten todos los integrantes de las familias sin importar su edad"
+
+  utter_SobreHoteles_HabitacionesAireAcondicionado:
+    - text : "En Lagosol las habitaciones te brindan un ambiente fresco por su sistema de climatización con evaporación y ventiladores a techo, y en Lagomar las habitaciones disponen de aire acondicionado."
+
+  utter_SobreHoteles_ServicioParqueadero:
+    - text : "El parqueadero está incluido dentro del valor de tu reserva o pasadía."
+
+  utter_SobreHoteles_SillaDeRuedas:
+    - text : "Los hoteles cuentan con instalaciones accesibles para personas en silla de ruedas, sin embargo, el préstamo de sillas se ofrece solo en casos de fuerza mayor."
+    
+  utter_SobreHoteles_PlanesRomanticos:
+    - text : "No tenemos planes románticos, sin embargo, te ofrecemos servicios adicionales como pétalos de rosas para decorar la habitación, vino y servicio en SPA."  
+
+  utter_SobreHoteles_Lavanderia:
+    - text : "Contamos con servicio de lavandería en Lagomar Hotel y Centro de Convenciones"
+
+  utter_SobreHoteles_HotelTiendas:
+    - text : "En Lagosol puedes encontrar miscelánea de verano y en Lagomar tenemos una Boutique."
+
+  utter_SobreHoteles_CanchaTenis:
+    - text : "Por supuesto, en Lagomar y Lagosol tenemos canchas de tenis y campos múltiples para que realices actividades deportivas"
+
+  utter_SobreHoteles_DeportesExtremos:
+    - text : "En Lagomar ofrecemos deportes acuáticos como paseo en lancha, esquí acuático y tabla en el lago, con costo adicional."
+
+  utter_SobreHoteles_ServiciosAdicionales:
+    - text : "En Lagosol existen puntos de venta de alimentos y bebidas y en Lagomar hay servicios adicionales como: bolera, spa, lago privado y divertimento las cuales tienen un costo adicional."
+
+  utter_SobreHoteles_Enfermeria:
+    - text : "Por supuesto, contamos con el personal y los equipos idóneos para atender cualquier emergencia que se pueda presentar en alguno de nuestros hoteles."
+
+  utter_SobreHoteles_PiscinasHotel:
+    - text : "En Lagosol hay cinco (5) piscinas y en Lagomar hay cuatro (4) para que disfrutes y te quedes en la de tu preferencia."
+
+  utter_SobreHoteles_TVHabitacion:
+    - text : "Claro que sí, contamos con televisión satelital en nuestras habitaciones."
+
+  utter_SobreHoteles_HorarioRecepcion:
+      - text : "La recepción esta disponible para nuestros huéspedes las 24 horas."
+
+  utter_SobreHoteles_SalirHotel:
+      - text : "Por supuesto, no tienes limitaciones en ninguno de nuestros hoteles."
+
+  utter_SobreHoteles_MaterialCanchaTenis:
+      - text : "Las canchas de tenis de campo en los hoteles Lagomar y Lagosol son en material sintético"
+  
+  utter_SobreHoteles_NadarLago:
+      - text : "No, en el escenario existen especies animales que pueden afectar tu salud."
+
+  utter_SobreHoteles_AlojamientoConAlimentacion:
+      - text : "No, todos nuestros planes ofrecen alimentación."    
+
+  utter_SobreHoteles_TiposHabitacionLagosol:
+      - text : "En Lagosol contamos con habitaciones múltiples que te brindan un ambiente fresco por su sistema de climatización con evaporación, balcón, ventiladores, mini nevera, televisión satelital y caja de seguridad. Las habitaciones se adaptan para hospedar hasta seis (6) personas."
+
+  utter_SobreHoteles_CumpleañosLagosol:
+      - text : "En el hotel Lagosol tenemos Kit de cumpleaños que consta de: decoración sencilla, aviso de feliz cumpleaños, vela volcán, mesa con mantel y servilleta de tela. Recuerda solicitar y programar el servicio con tu asesor 48 horas antes de tu estadía."    
+
+  utter_SobreHoteles_TiposHabitacionLagomar:
+      - text : "En Lagomar contamos con habitaciones *Dobles: 1 cama doble o 2 camas sencillas, *Triples: 1 cama doble y 2 camas sencillas, o *múltiples: Las cuales pueden ser cabañas con capacidad máx.. de 8 personas; suites: capacidad máx.. 5 personas o suite discapacitados"
+
+  utter_SobreHoteles_CumpleañosLagomar:
+      - text: "En el hotel Lagomar tenemos tres tipos de Kit de cumpleaños para: niños, jóvenes y adultos, recuerda solicitar y programar el servicio con tu asesor 48 horas antes de tu estadía. "  
+
+  utter_SobreHoteles_WIFIHoteles: 
+      - text : "En Lagomar y Lagosol, contamos con servicio de WI-FI en zonas públicas"
+
+  utter_AlimentosBebidas_ComidasRapidasLagomar:
+      - text : "En nuestra bolera, con costo adicional, podrás disfrutar de comidas rápidas al estilo americano como hamburguesas, perros calientes, pizzas, entre otros. Acompáñalos con cervezas internacionales y nacionales o jugos naturales."
+
+  utter_AlimentosBebidas_SnaksBebidasLagomar:
+      - text : "Desde las 10 de la mañana hasta las 5 de la tarde podrás disfrutar de snacks y bebidas suaves en piscina terraza, piscina tobogán o piscina mirador."  
+
+  utter_SobreHoteles_GolfLagomar:
+      - text : "En Lagomar tenemos cancha de mini golf con 18 hoyos rodeado de naturaleza."
+
+  utter_SobreHoteles_VoleyPlayaLagomar:
+      - text : "En Lagomar tenemos cancha de vóley-playa ubicada en la playa frente al lago."
+
+  utter_SobreHoteles_SalonJuegosLagomar:
+      - text : "En Lagomar reta tu destreza con juegos de mesa, ping pong, billar, rana y mesa de hockey de aire."
+    
+  utter_SobreHoteles_CanopyLagomar:
+      - text : "En Lagomar descarga tu adrenalina en nuestro servicio de Tarabita (Canopy) un traslado sobre el lago a través de 150 metros de cable."
+
+  utter_SobreHoteles_SPALagomar:
+      - text : "En Lagomar estimula tus sentidos en nuestro Spa Boutique, tratamientos y rituales para toda la familia, con costo adicional."
+      
+  utter_SobreHoteles_PlayaLagomar:
+      - text : "En Lagomar vive un ambiente natural con nuestra playa artificial de 2.354 m², muelle, vista a la isla y al lago, jardines contemplativos y biodiversidad propia de la región."    
+
+  utter_SobreHoteles_BolosLagomar:
+      - text : "Hazle moñona a la diversión en nuestras 8 pistas de bolos automáticas y comidas rápidas para estimular el ánimo de ganar, desde $10.200 línea (incluye zapatos)."
+
+  utter_SobreHoteles_FutbolLagomar:
+      - text : "En Lagomar golea la diversión en nuestra cancha sintética de fútbol cinco."
+
+  utter_SobreHoteles_FutbolLagosol:
+      - text : "En Lagosol disfruta una jornada deportiva en nuestra cancha múltiple para fútbol y baloncesto"   
+      
+  utter_SobreHoteles_SalonJuegosLagosol:
+      - text : "Pasa tiempo con tu familia y amigos en el salón con juegos de mesa, ping pong, billar, rana, hockey de aire, videojuegos, rockola."
+
+  utter_SobreHoteles_BicicletasAcuaticasLagosol:
+      - text : "En Lagosol contempla la mejor panorámica desde el lago con bicicletas acuáticas, se requiere portar camiseta con mangas para el uso de este servicio."
+
+  utter_SobreHoteles_CaminatasLagosol:
+      - text : "En Lagosol vive al natural participando en las caminatas ecológicas programadas con guía." 
+
+  utter_Pasadia_HorarioTransporteLagosol:
+      - text : "Si compraste servicio de transporte a Lagosol, debes estar a las 5:00am en el punto de salida, la hora de salida es a las 5:30am y el regreso 5:00pm"
+
+  utter_Pasadia_PrecioTransporteLagosol:
+      - text : "El trasporte a Lagosol tiene costo de $26.500, es importante que realices la compra  de lunes a jueves, debido a que este servicio es sujeto a disponibilidad."
+
+  utter_Pasadia_CondicionesRestriccionesTransporte:
+      - text : "Si vas a comprar o ya compraste el servicio de transporte, es importante que tengas en cuenta las condiciones y restricciones, conócelas aquí http://bit.ly/2FOXyav"
+
+  utter_Pasadia_TransporteNiños:
+      - text : "Un pasajero puede viajar con un niño menor de dos (2) años sin pagar tarifa por este último, siempre y cuando el menor viaje en sus brazos. Si el adulto desea que el niño ocupe un asiento, deberá pagar el costo del servicio"  
+
+  utter_Pasadia_PasadiaLagosol:
+      - text : "El servicio de pasadía a Lagosol incluye: Ingreso al parque, almuerzo tipo menú, refrigerio, ingreso al complejo de piscinas, recreación dirigida, acceso al salón de juegos, bicicletas acuáticas en el lago, parqueadero, gorro de baño y acceso a los vestidores"
+
+  utter_Pasadia_RecomendacionesPasadia:
+       - text : "Recomendaciones para tu visita en Lagosol: uso de protector solar y repelente, llevar ropa cómoda, para bebés se requiere el uso de pañal en las piscinas."
+
+  utter_Tarifas_TarifasPasadiaPorCategoria:
+       - text : "El pasadía Individual para afiliados categoría A tiene un costo de: adultos $27.600 y niños $24.400. El pasadía Individual para afiliados categoría B tiene un costo de: adultos $29.200 y niños $24.900. El pasadía Individual para afiliados categoría C tiene un costo de: adultos $36.400 y niños $28.500. El pasadía Individual para no afiliado tiene un costo de: adultos $43.100 y niños $29.700"  
+
+  utter_Tarifas_TarifasLagomar:
+      - text : "Ingresa aquí http://bit.ly/2IaQbwS y conoce los planes que tenemos en Lagomar, encontrarás el detalle y las tarifas de acuerdo a tu categoría de afiliación"
+
+  utter_Tarifas_TarifasLagosol:
+      - text : "Ingresa aquí http://bit.ly/2YJN8Sc y conoce los planes que tenemos en Lagosol, encontrarás el detalle y las tarifas de acuerdo a tu categoría de afiliación"
+  
+  utter_Convenios_CajaSinFronteras:
+      - text : "Puedes utilizar el convenio cajas sin fronteras para disfrutar diferentes servicios sin importar la ciudad donde estés, conoce más aquí http://bit.ly/2UeAw71"    
+
+  utter_Convenios_HotelesEstelar:
+      - text : "Conoce y disfruta una alianza para vivir nuevas experiencias con Compensar y Hoteles Estelar, hasta 12 destinos nacionales y 1 destino internacional. Ingresa aquí http://bit.ly/2CX9Gpj para ampliar la información "
+
+  utter_Convenios_ReservarHotelesEstelar:
+      - text : "Para adquirir este plan comunícate a la central de reservas de Hoteles Estelar a través de las siguientes opciones: Desde tu celular Claro o Movistar: marcando #680 Línea gratuita Nacional: 01 8000 97 8000 En Bogotá: +57 (1) 608 80 80 o +57 (1) 593 19 00"
+
+  utter_CreditoTurismo_SobreCreditoTurismo: 
+      - text : "Conoce crédito para turismo decídete a viajar y descubrir las maravillas de Colombia y el mundo, obtén plazos hasta de 48 meses conoce más aquí http://bit.ly/2Uyg6oK"
+
+  utter_CreditoTurismo_BeneficiosCreditoTurismo:
+      - text : "Aplica únicamente para productos de turismo Compensar (Hoteles y Agencia de Viajes Compensar), el desembolso de tu crédito se realizará directamente a: Hoteles Compensar si es el destino, Tarjeta Compensar o cuenta de ahorros o corriente personal cuando el destino sea diferente."
+
+  utter_CreditoTurismo_RequisitosCreditoTurismo:
+      - text : "Debes ser trabajador activo afiliado a la Caja Compensar, presentar la autorización de descuento por nómina, ser mayor de 18 y menor de 65 años. La empresa y tú deben estar a paz y salvo por todo concepto con Compensar y debes tener mínimo seis (6) meses de antigüedad en la empresa donde laboras."
+
+  utter_CreditoTurismo_DocumentosCreditoTurismo:
+      - text : "Ingresa aquí para conocer los documentos necesarios para que realices la solicitud de tu crédito para turismo: http://bit.ly/2Uyg6oK"
+
+  utter_CreditoTurismo_RealizarSolicitudCcredito:
+      - text : "Descarga y diligencia el formulario de solicitud de crédito http://bit.ly/2YP96U6, luego radica los documentos en nuestros canales Chat en línea, Call Center 307 7001 o en las siguientes sedes: http://bit.ly/2OLZR21"
+
+  utter_CreditoTurismo_TiempoAprobacionCreditoTurismo:
+      - text : "Dentro de 24 a 72 horas después de haber hecho la solicitud recibirás un mensaje de texto a tu celular con el estado de la solicitud."
+
+  utter_CreditoTurismo_LibranzaCreditoTurismo:
+      - text : "Una vez recibas el mensaje de texto en tu celular, acércate a nuestras sedes seleccionadas para la firma de libranzas http://bit.ly/2OLZR21"
+
+  utter_CreditoTurismo_AgenciaViajes:
+      - text : "Ingresa aquí http://bit.ly/2YTz4FZ y conoce toda la oferta turistica que Compensar tiene para ti: vuelos, hoteles, paquetes, cruceros y mucho más."
+    
 slots:  
   categoria:
     type : text
